@@ -1,0 +1,4 @@
+baseURL = 'http://huangxy29.github.io/'
+languageCode = 'en-us'
+title = 'h29\'s'
+theme = "m10c"
