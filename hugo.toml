@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://huangxy29.github.io/"
 theme = "ficurinia"
 title = "H29's"
 languageCode = "en"
@@ -135,15 +135,15 @@ summaryLength = 70  # number of words for article summaries
         weight = 10
     # these links (menu.icons) will be added as icon links below the main nav
     [[menu.icons]]
-        identifier = "gitlab"
-        name = "GitLab"
-        url = "https://gitlab.com/gabmus"
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/huangxy29"
         weight = 10
-    [[menu.icons]]
-        identifier = "gnome"
-        name = "GNOME GitLab"
-        url = "https://gitlab.gnome.org/gabmus"
-        weight = 20
+    # [[menu.icons]]
+    #     identifier = "gnome"
+    #     name = "GNOME GitLab"
+    #     url = "https://gitlab.gnome.org/gabmus"
+    #     weight = 20
 
 # this section is necessary if you want infinite scrolling
 # it allows to output the article list as paged JSON so that "pages" can be retrieved via javascript
