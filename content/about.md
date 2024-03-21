@@ -7,5 +7,4 @@ image:
 comments: false
 ---
 
-I'm a Driver on the road with my Fast Car.
-
+Be easy.
