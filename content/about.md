@@ -7,4 +7,4 @@ image:
 comments: false
 ---
 
-Be easy.
+Be easy, be simple.
