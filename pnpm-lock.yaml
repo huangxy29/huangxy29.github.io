@@ -24,8 +24,8 @@ dependencies:
     specifier: 4.0.12
     version: 4.0.12
   '@astrojs/sitemap':
-    specifier: 3.5.1
-    version: 3.5.1
+    specifier: 3.6.0
+    version: 3.6.0
   '@tailwindcss/vite':
     specifier: 4.1.13
     version: 4.1.13(vite@7.1.5)
@@ -275,8 +275,8 @@ packages:
       kleur: 4.1.5
     dev: false
 
-  /@astrojs/sitemap@3.5.1:
-    resolution: {integrity: sha512-uX5z52GLtQTgOe8r3jeGmFRYrFe52mdpLYJzqjvL1cdy5Kg3MLOZEvaZ/OCH0fSq0t7e50uJQ6oBMZG0ffszBg==}
+  /@astrojs/sitemap@3.6.0:
+    resolution: {integrity: sha512-4aHkvcOZBWJigRmMIAJwRQXBS+ayoP5z40OklTXYXhUDhwusz+DyDl+nSshY6y9DvkVEavwNcFO8FD81iGhXjg==}
     dependencies:
       sitemap: 8.0.0
       stream-replace-string: 2.0.0
@@ -1642,7 +1642,7 @@ packages:
   /@types/sax@1.2.7:
     resolution: {integrity: sha512-rO73L89PJxeYM3s3pPPjiPgVVcymqU490g0YO5n5By0k2Erzj6tay/4lr1CHAAU4JyOWd1rpQ8bCf6cZfHU96A==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.5.1
     dev: false
 
   /@types/tar@6.1.13:
