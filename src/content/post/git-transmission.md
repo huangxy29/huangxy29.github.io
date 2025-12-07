@@ -1,0 +1,15 @@
+---
+title: "Git笔记 2"
+publishDate: "14 November 2025"
+description: "git数据传输"
+tags: ["git", "devops"]
+draft: true
+---
+
+
+## 1 基本概念
+
+### 1.1 本地三个工作区
+- 工作目录 (working directory)
+- 暂存区域 (staging/index)
+- Git本地仓库（.git）
