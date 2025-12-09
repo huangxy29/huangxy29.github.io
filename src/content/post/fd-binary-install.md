@@ -1,9 +1,8 @@
 ---
 title: "手动安装fd"
 description: "使用二进制文件手动安装fd命令"
-publishDate: "10 March 2024"
+publishDate: "09 December 2025"
 tags: ["cli", "linux", "tool", "install"]
-draft: true
 ---
 
 ## 1 安装过程简介
