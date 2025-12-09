@@ -2,7 +2,7 @@
 title: "Ubuntu终端工具"
 description: "用于记录当前ubuntu桌面的终端工具"
 publishDate: "08 December 2025"
-tags: ["ubuntu", "terminal", "tools"]
+tags: ["ubuntu", "terminal", "tool"]
 ---
 
 本文档总结了一套基于 **Rust 生态** 的高性能终端环境配置方案。这套组合主打：**极速渲染**、**开箱即用**、**现代化交互**与**视觉美观**。
