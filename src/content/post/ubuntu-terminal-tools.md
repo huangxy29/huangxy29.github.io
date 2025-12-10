@@ -75,7 +75,7 @@ x = 0
 y = 1
 
 # 可选：让 Alacritty 启动时直接运行 Zellij
-# [shell]
+# [terminal.shell]
 # program = "zellij"
 ```
 
@@ -120,3 +120,18 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 1. 打开 Alacritty。
 2. 输入 zellij 或 zellij 自动启动。
+
+
+## 4 其它终端工具
+
+- [yazi](https://yazi-rs.github.io/): 终端文件管理器，超快的目录浏览与预览（图片/视频/文本），支持多窗格、书签、批量操作、插件与主题。典型用法：在任意目录运行 `yazi`，用方向键导航、Tab 在窗格间切换，按 `:` 进入命令模式执行批量操作。
+- [fd](https://github.com/sharkdp/fd): 友好的文件名搜索工具，替代 `find`。默认遵循 `.gitignore`，语法简洁、速度快。示例：`fd src` 查找名称包含 src 的文件/目录；`fd -e rs main` 按扩展名查找。
+
+- [bat](https://github.com/sharkdp/bat): 带语法高亮与行号的 `cat` 增强版，支持 Git 注释与分页器。示例：`bat -n Cargo.toml` 显示行号；`bat -p README.md` 纯净输出适合管道。
+
+- [ripgrep](https://github.com/BurntSushi/ripgrep): 超快的内容搜索工具，替代 `grep`，默认递归并遵循忽略规则。示例：`rg TODO -n` 搜索代码中的 TODO；`rg "fn\s+\w+" -uu` 在所有文件中搜索函数定义（忽略规则禁用）。
+
+- [fzf](https://github.com/junegunn/fzf): 通用模糊查找器，常与 `fd`/`rg` 结合做交互式选择。示例：`fd -t f | fzf` 在文件列表中模糊选择；`history | fzf` 交互式查找历史命令。可与 zsh 绑定快捷键增强补全。
+
+- [glow](https://github.com/charmbracelet/glow): 终端 Markdown 阅读器，支持本地与远程文档的美观渲染。示例：`glow README.md`；`glow` 浏览当前目录所有 Markdown 并用 TUI 选择查看。
+
